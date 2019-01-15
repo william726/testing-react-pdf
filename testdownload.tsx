@@ -5,7 +5,7 @@ class TestDownload extends React.Component<any, any> {
   constructor(props: any) {
     super(props);
     this.state = {
-      fooState: {}
+      fooState: {} // fooState is not being used but for testing purpose
     };
   }
 
